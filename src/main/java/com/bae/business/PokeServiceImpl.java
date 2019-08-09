@@ -2,8 +2,10 @@ package com.bae.business;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+@Service
 public class PokeServiceImpl implements PokeService {
 	private RestTemplate template;
 
